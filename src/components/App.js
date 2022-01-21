@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/revolution" component = {()=> <div>The Revolution</div>} />
         <Route exact path="/about" component = {()=> <div>About Us</div>} />
         <Route exact path="/contact" component = {()=> <div>Contact Us</div>} />
-        <Route exact path="/estimate" component = {()=> <div>Estimate</div>} />
+        <Route exact path="/estimate" component = {()=> <div>Free Estimate</div>} />
       </Switch>
       </BrowserRouter>
     </ThemeProvider>
